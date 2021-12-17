@@ -1,0 +1,7 @@
+
+   23  ls -a
+   24  ls
+   25  ls -R
+   26  cd unix
+   27  wc-l exo1.txt
+   28  history>>exo2.txt

@@ -1,0 +1,31 @@
+ 
+   97  mkdir unix
+   98  ls
+   99  touch foo.txt
+  100  ls
+  101  cp foo.txt foo-copy.txt
+  102  ls
+  103  cp foo.txt foo-copy.txt
+  104  ls
+  105  mv foo-copy.txt fooé.txt
+  106  ls
+  107  mkdir data
+  108  ls
+  109  mv foo.txt data
+  110  cd data
+  111  ls
+  112  cd ..
+  113  mkdir new
+  114  ls
+  115  mv data/foo2.txt new
+  116  ls
+  117  cd new
+  118  ls
+  119  cd ..
+  120  mv new/foo2.txt foo-old.txt
+  121  ls
+  122  rm foo-old.txt
+  123  ls
+  124  rmdir new
+  125  ls
+  126  history>>exercice1.txt
